@@ -1,8 +1,5 @@
 absl-py==0.11.0
 alabaster
-anaconda-client==1.7.2
-anaconda-navigator==1.10.0
-anaconda-project
 argh==0.26.2
 argon2-cffi
 asn1crypto
