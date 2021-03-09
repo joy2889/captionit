@@ -1,3 +1,4 @@
 flask
 keras
 opencv-contrib-python
+gunicorn
