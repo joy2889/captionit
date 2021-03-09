@@ -1,0 +1,75 @@
+{%extends "base.html"%}
+    
+{%block content%}
+
+<body background="/static/images/bg-6-full.jpg">
+
+<center>
+
+	<h1 class='display-2'>Predicted Caption </h1>
+
+	<br>
+	<br>
+	
+<img src="{{p}}" alt="image" height=340px>
+
+<br>
+
+<!--<h2 class='text-white'>
+RESNET50: {{data}}
+</h2>
+<br>
+<h2 class='text-white'>
+RESNET101: {{l}}
+</h2>-->
+
+<table border="0">
+	
+	<tr>
+		
+		<td>RESNET50</td>
+		<td>{{data}}</td>	
+
+	</tr>
+
+	<tr>
+		
+		<td>RESNET101</td>
+		<td>{{l}}</td>	
+
+	</tr>
+	
+	<tr>
+		
+		<td>RESNET152</td>
+		<td>{{r}}</td>	
+
+	</tr>
+
+    <tr>
+		
+		<td>MOBILENET</td>
+		<td>{{j}}</td>	
+
+	</tr>
+	
+	<tr>
+		
+		<td>NASNETMOBILE</td>
+		<td>{{k}}</td>	
+
+	</tr>
+	
+	<tr>
+		
+		<td>XCEPTION</td>
+		<td>{{m}}</td>	
+
+	</tr>
+
+</table>
+
+
+</center>
+
+{%endblock%}
