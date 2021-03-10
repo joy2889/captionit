@@ -10,7 +10,6 @@ from keras.applications import NASNetMobile
 from keras.applications import Xception
 from keras.preprocessing.sequence import pad_sequences
 import os
-port = int(os.environ.get('PORT', 5000))
 #-------------RESNET50 VOCAB-------------------------------
 vocab = np.load(r'Resnet50/vocab50.npy', allow_pickle=True)
 
