@@ -328,6 +328,6 @@ def after():
     return render_template('after.html', data=final,p = path,l=final2,r=final3,j=final4,k=final5,m=final6)
 
 if __name__ == "__main__":
-    app.run(host = "0.0.0.0")
+    app.run()
 
 
